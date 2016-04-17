@@ -1,3 +1,5 @@
+@import url("http://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
+
 /*estilo general del body*/
 html {
   width: 100%;
@@ -5,16 +7,48 @@ html {
 }
 
 body  {
-  width: 100%;
-  height: 100%;
+  background-color:#E9E9E9;
 }
 
+#header {
+  top: 2.5%;
+  bottom: 92.5%;
+  left: 2.5%;
+  right: 2.5%;
+  color:#FF9900;
+  background-color:#424242;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.9em;
+  text-align: left;
+  position: fixed;
+}
+
+.texto_centrado{
+  padding-left:  2%;
+  padding-right: 2%;
+}
 
 #map {
-  width: 100%;
-  height: 100%;
+  top: 10%;
+  bottom: 10%;
+  left: 2.5%;
+  right: 2.5%;
   color:#E9E9E9;
-  font-family:sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
+  position: absolute;
+}
+
+#footer {
+  top: 92.5%;
+  bottom: 2.5%;
+  left: 2.5%;
+  right: 2.5%;
+  color:#FF9900;
+  background-color:#424242;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 0.9em;
+  text-align: right;
+  position: fixed;
 }
 
 /*estilo mapa de situación*/
