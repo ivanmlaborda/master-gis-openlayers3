@@ -1,0 +1,73 @@
+/*estilo general del body*/
+body  {
+  background-color:#E9E9E9;
+}
+
+/*estilos concretos*/
+h1  {
+  font-size:1.875em;
+  font-weight:bold;
+}
+h3  {
+  font-size:1.25em;
+  font-weight:lighter;
+}
+
+/*estilos cajas*/
+#cabecera {
+  margin-top:10px;
+  margin-bottom:2px;
+  margin-left:10px;
+  margin-right:10px;
+  color:#FF9900;
+  background-color:#424242;
+  font-family:sans-serif;
+  text-align:center;
+}
+
+#map {
+  margin-bottom:10px;
+  margin-left:10px;
+  margin-right:10px;
+  padding: 20px 300px;
+  color:#E9E9E9;
+  background-color:#424242;
+  font-family:sans-serif;
+}
+
+/*estilo mapa de situación*/
+.ol-overviewmap{
+  right:auto;
+  top:auto;
+  left:0.5em;
+  bottom:0.5em;
+}
+
+/*estilo botón pantalla completa*/
+.ol-fullscreen{
+  right:auto;
+  top:4.35em;
+  left:0.5em;
+  bottom:auto;
+}
+
+/*estilo barra de escala*/
+.ol-scale-line{
+  right:auto;
+  top:0.65em;
+  left:3em;
+  bottom:auto;
+}
+
+/*estilo coordenadas posición puntero*/
+.ol-mouse-position{
+  right:auto;
+  top:2.7em;
+  left:3.05em;
+  bottom:auto;
+  text-shadow:
+  -1px -1px 0 #424242,
+  1px -1px 0 #424242,
+  -1px 1px 0 #424242,
+  1px 1px 0 #424242;
+}

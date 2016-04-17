@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html"; charset="utf-8">
+  <title>Ejercicio 4 - Mapa de Lleida</title>
+  <link rel="stylesheet" href="ol3.9.0/css/ol.css" type="text/css">
+  <link rel="stylesheet" type="text/css" href="css/estilos.css">
+  <link rel="stylesheet" href="ol3-layerswitcher-master/src/ol3-layerswitcher.css">
+  <link rel="stylesheet" type="text/css" href="css/popup.css" />
+</head>
+<body>
+  <!--Cabecera-->
+  <div id=cabecera>
+    <br>
+    <h1>Mapa de Lleida</h1>
+    <h3>Ivan Martinez Laborda 2015</h3>
+    <br>
+  </div>
+
+  <!--Mapa-->
+  <div id="map">
+    <div id="popup" class="ol-popup"></div><!--Este es el ontenedor del overlay-->
+  </div>
+  <!-- Añadimos la API de OL -->
+  <script type="text/javascript" src="ol3.9.0/build/ol-debug.js"></script>
+  <!-- Añadimos la API del complemento layerswitcher -->
+  <script type="text/javascript" src="ol3-layerswitcher-master/src/ol3-layerswitcher.js"></script>
+  <!-- Añadimos el código de nuestra aplicación -->
+  <script type="text/javascript" src="js/scripts.js"></script>
+</body>
+</html>
