@@ -20,13 +20,14 @@ body  {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.9em;
   text-align: left;
-  position: fixed;
+  position:absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-left: 5%;
 }
 
-.texto_centrado{
-  padding-left:  2%;
-  padding-right: 2%;
-}
 
 #map {
   top: 10%;
@@ -48,7 +49,12 @@ body  {
   font-family: 'Source Sans Pro', sans-serif;
   font-size: 0.9em;
   text-align: right;
-  position: fixed;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+  padding-right: 5%;
 }
 
 /*estilo mapa de situación*/
